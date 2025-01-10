@@ -42,7 +42,7 @@ header {
 }
 
 #subtitulo {
-    color: #B8860B; /* Color amarillo oscuro */
+    color: #B8860B; /* Color amarillo medio ocre */
     font-size: 1.8em; /* Aumentar tamaño del texto */
     margin-top: 10px; /* Espacio entre el título y el texto */
     font-weight: 500; /* Peso de la fuente */
@@ -90,7 +90,7 @@ h2 {
 }
 
 #btn-curiosidades {
-    background-color: #32CD32; /* Botón verde */
+    background-color: #66CDAA; /* Botón verde menos llamativo */
     color: #fff;
     border: none;
     padding: 15px 30px; /* Botón más grande */
@@ -101,7 +101,7 @@ h2 {
 }
 
 #btn-curiosidades:hover {
-    background-color: #228B22; /* Verde más oscuro */
+    background-color: #20B2AA; /* Verde más oscuro */
     transform: scale(1.07); /* Aumenta ligeramente al pasar el ratón */
 }
 
@@ -134,6 +134,7 @@ footer {
     height: 80px; /* Altura más generosa */
     z-index: 10; /* Asegura que el footer quede encima del contenido */
 }
+
 
 
 
