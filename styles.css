@@ -12,26 +12,11 @@
     font-style: normal; /* Estilo de la fuente */
 }
 
-
-
-/* Archivo de estilos para la página de Animal Crossing */
-
-/* Diferencia entre clase e ID: 
-   - Clase (.) se usa para aplicar un estilo a múltiples elementos.
-   - ID (#) se usa para un único elemento específico.
-*/
-
-@font-face {
-    font-family: 'Finky'; /* Nombre de la fuente */
-    src: url('https://raw.githubusercontent.com/Carlavas/TareaRepaso/main/FinkHeavy-Regular.ttf') format('truetype'); /* URL RAW de la fuente */
-    font-weight: 700; /* Peso de la fuente */
-    font-style: normal; /* Estilo de la fuente */
-}
-
 /* Estilos generales */
 body {
     font-family: 'Finky', Arial, sans-serif; /* Usar la fuente Finky, y Arial como fuente de respaldo */
-    line-height: 1.6;
+    font-size: 18px; /* Tamaño de fuente más grande */
+    line-height: 1.8; /* Aumentar el espaciado entre líneas */
     margin: 0;
     padding: 0;
     background-image: url('https://images5.alphacoders.com/956/956578.jpg'); /* Cambia esto a la ruta de tu imagen de fondo */
@@ -41,7 +26,7 @@ body {
 }
 
 header {
-    background-image: url('https://lh3.googleusercontent.com/GJJN--3OQkRffxzAbCM71I2KikNxgIfdW_VfYL88m9b4rv-qEok-xGPGEtlkn5Rn_BBGln3buqoTviRcaZi6wR3A=s1280-w1280-h800'); /* Cambia esto a la nueva URL de tu imagen */
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d19bcc31-33e4-448c-a5d4-fb8f62da91d1/dbnf3uv-bf9a10ba-a881-4510-a38b-c2fc265e0f64.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QxOWJjYzMxLTMzZTQtNDQ4Yy1hNWQ0LWZiOGY2MmRhOTFkMVwvZGJuZjN1di1iZjlhMTBiYS1hODgxLTQ1MTAtYTM4Yi1jMmZjMjY1ZTBmNjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QQo9bJdM3rq8d7NK3KyCPNEGMCs3SI23FVADl7OwfuQ'); /* Cambia esto a la nueva URL de tu imagen */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -50,8 +35,9 @@ header {
 }
 
 #titulo-principal {
-    font-size: 3em; /* Aumentar el tamaño de la fuente */
+    font-size: 3.5em; /* Aumentar el tamaño de la fuente */
     color: #8B4513; /* Color marrón */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para resaltar el título */
 }
 
 main {
@@ -61,27 +47,36 @@ main {
 
 section {
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 20px; /* Más espacio interno */
     border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #fff;
+    border-radius: 12px; /* Bordes más redondeados */
+    background-color: #f9f9f9; /* Color de fondo suave */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.2s, box-shadow 0.2s; /* Animación al pasar el ratón */
+}
+
+section:hover {
+    transform: scale(1.02); /* Aumenta ligeramente al pasar el ratón */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
 }
 
 h2 {
     color: #2e8b57;
+    font-size: 2em; /* Aumentar el tamaño de los subtítulos */
 }
 
 .personaje {
     margin-top: 15px;
-    padding: 10px;
+    padding: 15px; /* Más espacio interno */
     background-color: #fafad2;
-    border-radius: 8px;
+    border-radius: 10px; /* Bordes más suaves */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra para mayor profundidad */
 }
 
 .imagen-personaje {
     max-width: 100%;
     border: 2px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px; /* Bordes más redondeados */
     margin-top: 10px;
 }
 
@@ -89,31 +84,32 @@ h2 {
     background-color: #ff7f50;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    border-radius: 5px;
+    padding: 12px 25px; /* Botón más grande */
+    font-size: 1.1em; /* Aumentar tamaño del texto */
+    border-radius: 8px; /* Bordes más suaves */
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s; /* Animación al pasar el ratón */
 }
 
 #btn-curiosidades:hover {
     background-color: #ff6347;
+    transform: scale(1.05); /* Aumenta ligeramente al pasar el ratón */
 }
 
 dialog {
     border: none;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 12px; /* Bordes redondeados */
+    padding: 25px; /* Más espacio interno */
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 #cerrar-dialogo {
     background-color: #98fb98;
     color: #fff;
     border: none;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 12px;
+    border-radius: 8px; /* Bordes más suaves */
     cursor: pointer;
     margin-top: 10px;
 }
@@ -122,12 +118,10 @@ footer {
     background-color: #2e8b57;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 15px; /* Más espacio */
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px; /* Define una altura fija */
+    height: 70px; /* Altura más generosa */
     z-index: 10; /* Asegura que el footer quede encima del contenido */
-}
-
 }
