@@ -45,6 +45,7 @@ header {
     color: #B8860B; /* Color amarillo oscuro */
     font-size: 1.8em; /* Aumentar tamaño del texto */
     margin-top: 10px; /* Espacio entre el título y el texto */
+    font-weight: 500; /* Peso de la fuente */
 }
 
 main {
@@ -133,6 +134,7 @@ footer {
     height: 80px; /* Altura más generosa */
     z-index: 10; /* Asegura que el footer quede encima del contenido */
 }
+
 
 
 
