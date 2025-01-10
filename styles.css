@@ -84,13 +84,14 @@ h2 {
 }
 
 .imagen-personaje {
-    width: 150px; /* Tamaño fijo para todas las imágenes */
-    height: 150px; /* Asegura proporciones consistentes */
+    width: 200px; /* Tamaño más grande para las imágenes */
+    height: 200px; /* Asegura proporciones consistentes */
     object-fit: cover; /* Recorta la imagen si es necesario para llenar el espacio */
     border: 3px solid #ccc;
     border-radius: 10px; /* Bordes más redondeados */
     margin-top: 15px;
 }
+
 
 #btn-curiosidades {
     background-color: #66CDAA; /* Botón verde menos llamativo */
