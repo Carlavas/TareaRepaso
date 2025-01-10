@@ -14,6 +14,20 @@
 
 
 
+/* Archivo de estilos para la página de Animal Crossing */
+
+/* Diferencia entre clase e ID: 
+   - Clase (.) se usa para aplicar un estilo a múltiples elementos.
+   - ID (#) se usa para un único elemento específico.
+*/
+
+@font-face {
+    font-family: 'Finky'; /* Nombre de la fuente */
+    src: url('https://raw.githubusercontent.com/Carlavas/TareaRepaso/main/FinkHeavy-Regular.ttf') format('truetype'); /* URL RAW de la fuente */
+    font-weight: 700; /* Peso de la fuente */
+    font-style: normal; /* Estilo de la fuente */
+}
+
 /* Estilos generales */
 body {
     font-family: 'Finky', Arial, sans-serif; /* Usar la fuente Finky, y Arial como fuente de respaldo */
@@ -37,6 +51,7 @@ header {
 
 #titulo-principal {
     font-size: 3em; /* Aumentar el tamaño de la fuente */
+    color: #8B4513; /* Color marrón */
 }
 
 main {
@@ -113,4 +128,6 @@ footer {
     width: 100%;
     height: 60px; /* Define una altura fija */
     z-index: 10; /* Asegura que el footer quede encima del contenido */
+}
+
 }
