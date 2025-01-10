@@ -42,11 +42,13 @@ header {
 }
 
 #subtitulo {
-    color: #B8860B; /* Color amarillo medio ocre */
+    color: #D1A10C; /* Color amarillo medio ocre */
     font-size: 1.8em; /* Aumentar tamaño del texto */
     margin-top: 10px; /* Espacio entre el título y el texto */
     font-weight: 500; /* Peso de la fuente */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Agregar sombra al texto */
 }
+
 
 main {
     padding: 30px;
