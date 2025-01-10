@@ -42,13 +42,12 @@ header {
 }
 
 #subtitulo {
-    color: #E1B91E; /* Amarillo ocre más claro */
+    color: #D4A017; /* Amarillo oscuro más claro */
     font-size: 1.8em; /* Aumentar tamaño del texto */
     margin-top: 10px; /* Espacio entre el título y el texto */
     font-weight: 500; /* Peso de la fuente */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Agregar sombra al texto */
 }
-
 
 main {
     padding: 30px;
@@ -85,7 +84,9 @@ h2 {
 }
 
 .imagen-personaje {
-    max-width: 100%;
+    width: 150px; /* Tamaño fijo para todas las imágenes */
+    height: 150px; /* Asegura proporciones consistentes */
+    object-fit: cover; /* Recorta la imagen si es necesario para llenar el espacio */
     border: 3px solid #ccc;
     border-radius: 10px; /* Bordes más redondeados */
     margin-top: 15px;
@@ -136,6 +137,9 @@ footer {
     height: 80px; /* Altura más generosa */
     z-index: 10; /* Asegura que el footer quede encima del contenido */
 }
+
+
+
 
 
 
