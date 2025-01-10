@@ -41,6 +41,12 @@ header {
     font-weight: bold;
 }
 
+#subtitulo {
+    color: #B8860B; /* Color amarillo oscuro */
+    font-size: 1.8em; /* Aumentar tamaño del texto */
+    margin-top: 10px; /* Espacio entre el título y el texto */
+}
+
 main {
     padding: 30px;
     margin-bottom: 120px; /* Asegura suficiente espacio para el footer */
@@ -49,7 +55,7 @@ main {
 section {
     margin-bottom: 30px;
     padding: 30px; /* Más espacio interno */
-    border: 2px solid #ddd; /* Borde más suave */
+    border: 3px solid #8B4513; /* Borde marrón */
     border-radius: 16px; /* Bordes más redondeados */
     background-color: #fefefe; /* Color de fondo suave */
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
@@ -83,7 +89,7 @@ h2 {
 }
 
 #btn-curiosidades {
-    background-color: #ff7f50;
+    background-color: #32CD32; /* Botón verde */
     color: #fff;
     border: none;
     padding: 15px 30px; /* Botón más grande */
@@ -94,7 +100,7 @@ h2 {
 }
 
 #btn-curiosidades:hover {
-    background-color: #ff6347;
+    background-color: #228B22; /* Verde más oscuro */
     transform: scale(1.07); /* Aumenta ligeramente al pasar el ratón */
 }
 
@@ -127,4 +133,5 @@ footer {
     height: 80px; /* Altura más generosa */
     z-index: 10; /* Asegura que el footer quede encima del contenido */
 }
+
 
