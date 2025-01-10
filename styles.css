@@ -39,6 +39,7 @@ header {
     color: #8B4513; /* Color marrón */
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada */
     font-weight: bold;
+    -webkit-text-stroke: 2px #E1B91E; /* Borde amarillo */
 }
 
 #subtitulo {
@@ -91,7 +92,6 @@ h2 {
     border-radius: 10px; /* Bordes más redondeados */
     margin-top: 15px;
 }
-
 
 #btn-curiosidades {
     background-color: #66CDAA; /* Botón verde menos llamativo */
