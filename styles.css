@@ -5,13 +5,13 @@
    - ID (#) se usa para un único elemento específico.
 */
 
-/* Definir la fuente Finky Heavy desde un archivo local */
 @font-face {
     font-family: 'Finky'; /* Nombre de la fuente */
-    src: url('../fonts/FinkHeavy-Regular.ttf') format('truetype'); /* Ruta relativa a la fuente */
-    font-weight: 700; /* Peso de la fuente, en este caso pesada (heavy) */
-    font-style: normal; /* Estilo de la fuente (normal) */
+    src: url('https://raw.githubusercontent.com/tu_usuario/tu_repositorio/main/fonts/FinkHeavy-Regular.ttf') format('truetype'); /* URL completa de la fuente */
+    font-weight: 700; /* Peso de la fuente */
+    font-style: normal; /* Estilo de la fuente */
 }
+
 
 /* Estilos generales */
 body {
