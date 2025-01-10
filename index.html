@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Crossing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo-principal">Animal Crossing</h1>
+        <p>Explora el maravilloso mundo de Animal Crossing y sus encantadores personajes.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introducción</h2>
+            <p>Animal Crossing es una serie de videojuegos de simulación de vida desarrollada por Nintendo. En este juego, los jugadores pueden construir su propia comunidad en una isla y socializar con adorables animales antropomórficos.</p>
+        </section>
+
+        <section>
+            <h2>Personajes Destacados</h2>
+            <article class="personaje">
+                <h3>Tom Nook</h3>
+                <p>Tom Nook es un mapache emprendedor que te ayudará a construir y personalizar tu hogar.</p>
+                <img src="https://static.wikia.nocookie.net/animalcrossing/images/e/e3/Tom_Nook_NH.png/revision/latest?cb=20191228193640" alt="Tom Nook" class="imagen-personaje">
+            </article>
+
+            <article class="personaje">
+                <h3>Isabelle</h3>
+                <p>Isabelle es una encantadora perrita que administra y organiza eventos en la isla.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Isabelle_AF.png/120px-Isabelle_AF.png" alt="Isabelle" class="imagen-personaje">
+            </article>
+        </section>
+
+        <section>
+            <h2>Curiosidades</h2>
+            <button id="btn-curiosidades">Descubre curiosidades</button>
+        </section>
+    </main>
+
+    <dialog id="curiosidades">
+        <p>Animal Crossing se lanzó por primera vez en 2001 y ha sido un éxito mundial desde entonces. La personalización de la isla es una de las características favoritas de los jugadores.</p>
+        <button id="cerrar-dialogo">Cerrar</button>
+    </dialog>
+
+    <footer>
+        <p>&copy; 2025 - Página creada como ejercicio de aprendizaje</p>
+    </footer>
+
+    <script>
+        const botonCuriosidades = document.getElementById('btn-curiosidades');
+        const dialogo = document.getElementById('curiosidades');
+        const botonCerrar = document.getElementById('cerrar-dialogo');
+
+        botonCuriosidades.addEventListener('click', () => {
+            dialogo.showModal();
+        });
+
+        botonCerrar.addEventListener('click', () => {
+            dialogo.close();
+        });
+    </script>
+</body>
+</html>
